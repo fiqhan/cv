@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.left-container {
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+	background-color: #020400;
+	
+}
+
+.photo-contact {
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	
+}
+
+.photo {
+	width: 50%;
+	border-radius: 50%;
+}
+
+.contact-me {
+	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'Staatliches', cursive;
+	color: white;
+}
+
+.button {
+	width: 75%;
+	background-color: white;
+	border-radius: 12px;
+	margin-bottom: 12px;
+	font-size: 10,1arm;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+	transition: 0,75s;
+}
+
+.right-container {
+	position: absolute;
+	left: 300px;
+}
+
+.top-bar {
+	padding-top: 80px;
+	padding-left: 40px;
+}
+
+.list-menu {
+	float: right;
+	padding-left: 600px;
+	padding-right: 60px;
+}
+
+.Gamar {
+	padding-right: 700px;
+	position: absolute;
+	float: left;
+}
+#welcome {
+	padding-top: 150px;
+	padding-left: 360px;
+}
+
+#Profile1 {
+	padding-top: 170px;
+	padding-left: 280px;
+}
+
+#Bacaan1 {
+	padding-top: 0px;
+	padding-left: 280px;
+
+}
+
+#Contact1 {
+	padding-top: 0px;
+	padding-left: 280px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.Border {
+	font-style: italic;
+	font-size: 50px;
+}
+
+.select {
+	padding: 0 15px;
+	font-size: 20px;
+
+}
